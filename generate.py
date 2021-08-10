@@ -5,7 +5,7 @@ import os
 txt = """![](./dongxu/{})
 """
 
-f = open("README.md", "a")
+f = open("README.md", "w")
 for filename in os.listdir("./dongxu"):
     if filename.endswith(".jpeg") or filename.endswith(".png"): 
          # print(os.path.join(directory, filename))
